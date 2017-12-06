@@ -1,3 +1,33 @@
-h1{
-	color:red;
+body {
+	width: 1000px;
+	height: 2000px;
+	position: relative;
+	background-color: #ecdede;
+}
+
+.image {
+	width: 700px;
+	height: 450px;
+	margin: 200px;
+	background-color: #ecdede;
+}
+
+.about, .story, .gmail, .images {
+	margin: 20px;
+	font-size: 30px;
+	font-family: arial,sans-serif;
+}
+
+.apps, .bell, .n{
+	margin: 20px;
+	width:40px;
+	height:40px;
+}
+
+.gmail, .images, .apps, .bell, .n {
+	position: relative;
+}
+
+.n {
+	margin: 0;
 }
