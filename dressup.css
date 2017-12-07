@@ -5,6 +5,26 @@ body {
 	background-color: #ecdede;
 }
 
+.topbar {
+	display: flex;
+	font-size: 30px;
+	font-family: arial,sans-serif;
+}
+
+.topbar_left {
+	flex: 1;
+	margin: 20px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.topbar_right {
+	flex: 4;
+	display: flex;
+	margin: 20px;
+	justify-content: flex-end;
+}
+
 .image {
 	width: 700px;
 	height: 450px;
@@ -12,22 +32,16 @@ body {
 	background-color: #ecdede;
 }
 
-.about, .story, .gmail, .images {
-	margin: 20px;
-	font-size: 30px;
-	font-family: arial,sans-serif;
+.about, .story {
+	margin: 10px;
+}
+
+.gmail, .images {
+	margin: 10px;
 }
 
 .apps, .bell, .n{
-	margin: 20px;
-	width:40px;
-	height:40px;
-}
-
-.gmail, .images, .apps, .bell, .n {
-	position: relative;
-}
-
-.n {
-	margin: 0;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
 }
