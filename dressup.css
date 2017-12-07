@@ -1,7 +1,4 @@
-body {
-	width: 1000px;
-	height: 2000px;
-	position: relative;
+html {
 	background-color: #ecdede;
 }
 
@@ -25,13 +22,6 @@ body {
 	justify-content: flex-end;
 }
 
-.image {
-	width: 700px;
-	height: 450px;
-	margin: 200px;
-	background-color: #ecdede;
-}
-
 .about, .story {
 	margin: 10px;
 }
@@ -44,4 +34,18 @@ body {
 	width: 40px;
 	height: 40px;
 	margin: 10px;
+}
+
+
+.image {
+	display: flex;
+	width: 700px;
+	height: 450px;
+	margin: auto;
+	background-color: #ecdede;
+}
+
+.input {
+	width: 900px;
+	height: 20px;
 }
