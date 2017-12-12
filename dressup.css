@@ -47,6 +47,16 @@ html {
 
 .search {
 	position:relative;
+	width: 1000px;
+	height: 50px;
+	margin: 0px auto;
+	border: 1px;
+	display: block;
+	font-size: 20px;
+}
+
+.inputbar {
+	display: block;
 }
 
 .input {
@@ -58,12 +68,16 @@ html {
 }
 
 .mic {
-	top: 4px;
-	left: 1190px;
-	width: 40px;
-	height: 40px;
-	position: relative;
+	background: url(mic.png) no-repeat -3px 0;
+	background-size: 24px 24px;
+	display: inline-block;
+	height: 23px;
+	width: 17px;
+	vertical-align: middle;
+	float: right;
+	position: static;
 }
+
 .button {
 	display: flex;
 	position: relative;
@@ -80,7 +94,10 @@ html {
 }
 
 footer {
-	position: relative;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
 	display: flex;
 	font-size: 30px;
 	font-family: arial,sans-serif;
